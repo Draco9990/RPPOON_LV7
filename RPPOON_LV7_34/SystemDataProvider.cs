@@ -26,7 +26,8 @@ namespace RPPOON_LV7_34
         public float GetAvailableRAM()
         {
             float availableRAM = this.AvailableRAM;
-            if(/*availableRAM != this.previousRAMAvailable*/)
+            float diff = previousRAMAvailable * 0.1f;
+            if (availableRAM > previousRAMAvailable + diff || availableRAM < previousRAMAvailable - diff/*availableRAM != this.previousRAMAvailable*/)
             {
                 this.Notify();
             }

@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPPOON_LV7", "RPPOON_LV7.csproj", "{7FDD0B07-D9AD-47E8-96E0-F287A23F36E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPPOON_LV7", "RPPOON_LV7.csproj", "{7FDD0B07-D9AD-47E8-96E0-F287A23F36E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPPOON_LV7_34", "..\RPPOON_LV7_34\RPPOON_LV7_34.csproj", "{05A0E3F7-A8BE-4F2A-88D3-8EF88936F2DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPPOON_LV7_34", "..\RPPOON_LV7_34\RPPOON_LV7_34.csproj", "{05A0E3F7-A8BE-4F2A-88D3-8EF88936F2DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPPOON_LV7_567", "..\RPPOON_LV7_567\RPPOON_LV7_567.csproj", "{9F8FC7E2-E10B-453F-8909-65F6C0726776}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{05A0E3F7-A8BE-4F2A-88D3-8EF88936F2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05A0E3F7-A8BE-4F2A-88D3-8EF88936F2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05A0E3F7-A8BE-4F2A-88D3-8EF88936F2DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F8FC7E2-E10B-453F-8909-65F6C0726776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F8FC7E2-E10B-453F-8909-65F6C0726776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F8FC7E2-E10B-453F-8909-65F6C0726776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F8FC7E2-E10B-453F-8909-65F6C0726776}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
